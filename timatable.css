@@ -1,0 +1,69 @@
+/* timatable.css */
+
+/* Global Page Setup */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Links Styling */
+a {
+    text-decoration: none;
+    color: #002366; /* Deep Blue  */
+    font-weight: bold;
+    padding: 0 10px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #D4AF37; /* Gold  */
+}
+
+/* Table Architecture  */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+th {
+    background-color: #002366; /* Deep Blue  */
+    color: #D4AF37;            /* Gold  */
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #001a4d;
+}
+
+/* Data Cell Styling */
+td {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
+/* Highlight Rows on Hover  */
+tbody tr:hover {
+    background-color: #fcf8e3; /* Soft gold tint for readability */
+    cursor: default;
+}
+
+/* Vertical Break Column  */
+.break {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #002366;
+    letter-spacing: 2px;
+    width: 40px;
+}
+
+/* Special Highlighting for Day Column */
+td strong {
+    color: #002366;
+}

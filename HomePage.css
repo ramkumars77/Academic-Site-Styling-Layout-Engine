@@ -1,0 +1,80 @@
+/* HomePage.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Master Container */
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Links */
+.home a {
+    text-decoration: none;
+    color: #002366; /* Deep Blue  */
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.home a:hover {
+    color: #D4AF37; /* Gold  */
+}
+
+/* Header and Typography */
+header h1 img {
+    max-width: 200px; /* Adjusting logo size [cite: 58] */
+    height: auto;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #002366; /* Deep Blue */
+    margin-top: 30px;
+    font-size: 2rem;
+    border-bottom: 2px solid #D4AF37; /* Gold Underline */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Content Paragraphs */
+p {
+    text-align: justify;
+    margin: 20px 40px;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Main Banner Image */
+img[src="pdkv.png"] {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #002366;
+    margin-top: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Mobile Responsiveness  */
+@media (max-width: 768px) {
+    p {
+        margin: 15px;
+        font-size: 1rem;
+    }
+    
+    .home a {
+        display: inline-block;
+        padding: 5px;
+    }
+}
